@@ -1,0 +1,44 @@
+---
+title: GOMC — Open Source Motion Control
+description: An open-source framework for industrial motion control and automation, built on Linux with real-time capabilities.
+template: splash
+hero:
+  title: GOMC
+  tagline: Open Source Motion Control
+  image:
+    file: ../../assets/gomc-logo.svg
+  actions:
+    - text: View on GitHub
+      link: https://github.com/modusoft/gomc
+      icon: external
+      variant: primary
+    - text: Learn more
+      link: /homepage/impressum/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## The Future of Open Industrial Automation
+
+GOMC is an open-source framework for industrial motion control and automation. Built on Linux with real-time capabilities, it is designed for transparency, determinism, and extensibility — giving engineers full visibility into every layer of the stack.
+
+At its core, GOMC pairs a **Go host runtime** with high-performance **C real-time plugins**, combining the productivity of modern systems programming with the deterministic execution required by demanding motion applications.
+
+GOMC supports **IEC 61131-3 Structured Text**, cross-compiled to native code, so control logic written in the industry-standard language runs at full speed — no interpreter, no hidden overhead. A flexible **Hardware Abstraction Layer (HAL)** routes signals cleanly between components, making it straightforward to integrate sensors, drives, and fieldbus networks.
+
+<CardGrid>
+  <Card title="Real-Time Linux" icon="laptop">
+    Hard real-time execution on commodity hardware — deterministic, predictable, and fully inspectable.
+  </Card>
+  <Card title="IEC 61131-3 ST" icon="document">
+    Write control logic in industry-standard Structured Text, compiled to native machine code.
+  </Card>
+  <Card title="Multi-Axis Motion" icon="setting">
+    Designed from the ground up for coordinated multi-axis motion systems and fieldbus integration.
+  </Card>
+  <Card title="Open Architecture" icon="open-book">
+    No vendor lock-in. LGPL-3.0 licensed, community-driven, and fully auditable — your automation stack, your way.
+  </Card>
+</CardGrid>
