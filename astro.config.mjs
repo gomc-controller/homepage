@@ -20,9 +20,11 @@ export default defineConfig({
       ],
       sidebar: [
         { label: 'Home', link: '/' },
-        { label: 'Impressum', link: '/impressum/' },
       ],
       customCss: ['./src/styles/custom.css'],
+      components: {
+        Footer: './src/components/Footer.astro',
+      },
       head: [],
     }),
   ],

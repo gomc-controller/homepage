@@ -1,6 +1,8 @@
 ---
 title: Impressum
 description: Legal notice for the GOMC project website.
+prev: false
+next: false
 ---
 
 # Impressum
