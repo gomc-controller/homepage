@@ -18,3 +18,18 @@
   --sl-color-accent: #4a8fe0;
   --sl-color-accent-high: #cfe0f8;
 }
+
+/* Light mode: Starlight inverts the gray scale so gray-1 is dark and black is the light page background */
+:root[data-theme='light'] {
+  --sl-color-accent-low: #cfe0f8;
+  --sl-color-accent: #2c72d2;
+  --sl-color-accent-high: #1a4d96;
+  --sl-color-white: #1a1b1c;
+  --sl-color-gray-1: #2b2d2f;
+  --sl-color-gray-2: #47494b;
+  --sl-color-gray-3: #87898c;
+  --sl-color-gray-4: #c2c4c6;
+  --sl-color-gray-5: #e8e9ea;
+  --sl-color-gray-6: #eef0f2;
+  --sl-color-black: #f8f9fa;
+}
